@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Simple Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="levelZero">Walking tour to Turkey</string>
+    <string name="levelOne">Planned</string>
+    <string name="levelOneParam">30.11.2012</string>
+    <string name="levelTwo">Tickets bought</string>
+    <string name="levelTwoParam">15.12.2012</string>
+    <string name="levelThree">Start date</string>
+    <string name="levelThreeParam">10.04.2013</string>
+    <string name="levelFour">Finish date</string>
+    <string name="levelFourParam">20.04.2013</string>
+    <string name="levelFive">Manager</string>
+    <string name="levelFiveParam">Shukin V.</string>
+    <string name="levelSix">In the gallery you can see pictures of a different Turkey.</string>
+    <string name="status">Completed</string>
+    <string name="button_toast">Application closed</string>
+</resources>

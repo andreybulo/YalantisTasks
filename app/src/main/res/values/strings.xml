@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Simple Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="levelZero">Похід у Туреччину</string>
+    <string name="levelOne">Заплановано</string>
+    <string name="levelOneParam">30.11.2012</string>
+    <string name="levelTwo">Куплені квитки</string>
+    <string name="levelTwoParam">15.12.2012</string>
+    <string name="levelThree">Дата початку</string>
+    <string name="levelThreeParam">10.04.2013</string>
+    <string name="levelFour">Дата закінчення</string>
+    <string name="levelFourParam">20.04.2013</string>
+    <string name="levelFive">Організатор</string>
+    <string name="levelFiveParam">Щукін В.О.</string>
+    <string name="levelSix">В галереї представлені фото з походу. Проглянувши їх ти побачиш Туреччину
+        з іншого боку.</string>
+    <string name="status">Виконано</string>
+    <string name="button_toast">Додаток закрито</string>
+
+</resources>

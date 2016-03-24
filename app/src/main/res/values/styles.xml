@@ -1,0 +1,62 @@
+<resources>
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textAllCaps">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Header" parent="TextAppearance.AppCompat.Large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/medium_text_vertical_padding</item>
+        <item name="android:textSize">@dimen/heading_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="StatusButton">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>M
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/statusColor</item>
+        <item name="android:textSize">@dimen/text_size</item> 
+    </style>
+    
+    <style name="MediumText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:paddingTop">@dimen/medium_text_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/medium_text_vertical_padding</item>
+    </style>
+    
+    <style name="MediumText.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MediumText.bold.match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="Image">
+        <item name="android:layout_width">@dimen/pic_width</item>
+        <item name="android:layout_height">@dimen/pic_height</item>
+        <item name="android:paddingRight">@dimen/image_gorizontal_padding</item>
+    </style>
+
+    <style name="LinearLayoutHorizontal">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>
