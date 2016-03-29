@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
-
+//[Comment] Bad design. Use recycler view. Bad colors. Scrollview should be match parent
 public class MyActivity extends AppCompatActivity {
 
 
@@ -29,7 +29,7 @@ public class MyActivity extends AppCompatActivity {
         ImageView imageView3 = (ImageView)findViewById(R.id.imageView3);
         ImageView imageView4 = (ImageView)findViewById(R.id.imageView4);
         imageLoader.displayImage("http://i68.tinypic.com/viiq68.jpg", imageView);
-        imageLoader.displayImage("http://i67.tinypic.com/2h2juyu.jpg", imageView2);
+        imageLoader.displayImage("http://i67.tinypic.com/2h2juyu.jpg", imageView2); //[Comment] Hardcode
         imageLoader.displayImage("drawable://"+R.drawable.foto3, imageView3);
         imageLoader.displayImage("drawable://"+R.drawable.foto4, imageView4);
 
